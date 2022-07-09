@@ -1,0 +1,65 @@
+.nav {background-color: #ec682b;}
+.nav a{text-decoration:none; color:#fff;}
+.nav ul li{float:left;}
+.nav i{font-size:17px;}
+
+.navbar ul li a{color:#030392; font-weight:500;}
+.navbar img{float:left;}
+.navbar h5{float:left; font-size:13px; color:#030392;}
+
+
+.form input{width:100%;border: 1px solid #fff;}
+
+.btn mt-3{width:100%}
+
+.list1 img{ float:left; width:65px; height:45px;}
+.list1 h6{font-size:15px;}
+.list1 p{font-size:12px;}
+.list1 li{width:43%;float:left;}
+
+
+.list2 i{font-size:38px;}
+
+.list3 li{text-align:center;}
+.list3 img{width:100%;height:50%;}
+.list3 li h5{color: #e79800;}
+.list3 li h6{color:#777;}
+.list3 li p{color:#777777;}
+
+.list5 h5{color:#fff;}
+.list5 ul{list-style:none;}
+.list5 li a{text-decoration:none; color:#f9f9f9;}
+.list5 li a:hover{color:#e37d39;transition: all 0.3s ease-in-out;}
+
+.background {background-image: url(../images/bgimg.jpg); background-size:cover;width: 100%; background-attachment:fixed;
+background-position: 50% 88px;
+    background-color: #000;opacity:0.7; }
+.background ul li{display:inline-block;}
+
+.info1    {text-align: center;
+    border: 1px solid #e5e5e5; }
+.info1 img{margin-top: -49px;}
+
+
+
+.info4 i{font-size:34px; color:#666666; display: inline-block; width: 83px; height: 83px;border-radius: 100%;background-color: #fff;border: solid 1px #ddd; padding-top:22px;}
+.info4 span i:hover {color:#e79800; transition: all 0.3s ease-in-out;}
+.info4 h6{color:#2f2f2f; font-family: 'Roboto Slab', serif; font-size:17px;font-weight:400;}
+.info4 p {color: #777777;font-family: 'Source Sans Pro', sans-serif;font-size: 14px; font-weight:200;}
+.info4 li a{color:#666666;}
+.info4 h6:hover{color:#e79800;}
+
+
+.event span {color:#d2d2d2;font-size: 72px;font-weight: bold;left:2px;top:13px;position:relative; margin-left:5px}
+.event h3{ font-family: 'Roboto Slab', serif;}
+
+
+.post ul li{ font-size: 13px;}
+.post ul li a{color:#999999;}
+.post a{color:#e79800; text-decoration:none;}
+.post h4{color:#e79800;}
+
+.list6 p{font-size:12px;}
+.list6 i{font-size:40px;}
+
+
