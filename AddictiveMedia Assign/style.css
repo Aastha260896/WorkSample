@@ -1,0 +1,589 @@
+body {
+  margin: 0px;
+}
+.divcommon {
+  display: block;
+  max-width: 100%;
+  font-family: arial;
+}
+.nav {
+  display: block;
+  max-width: 100%;
+  height: 79px;
+}
+
+.nav1 {
+  float: left;
+  width: 20%;
+  padding-top: 23px;
+  padding-left: 24px;
+}
+.nav1 hr {
+  margin-left: 0px;
+}
+
+.nav2 {
+  float: left;
+  width: 58%;
+  text-align: center;
+  padding-top: 20px;
+}
+.nav2 h4 {
+  font-size: 28.75px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.nav3 {
+  float: left;
+  text-align: right;
+  width: 19%;
+  padding-top: 24px;
+}
+.nav3 a {
+  font-size: 18px;
+  color: #222;
+  font-family: "Avant Garde Gothic Std";
+  text-decoration: none;
+  line-height: 18px;
+  border-bottom: 1px solid #222;
+}
+
+.slider {
+  background-image: url("images/slider.jpg");
+  max-width: 90%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  line-height: 80px;
+  display: block;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 71px;
+  margin-right: 5%;
+  padding: 5%;
+}
+.slider span {
+  background-color: #ec2232;
+  opacity: 50%;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 90px;
+  float: left;
+}
+.slider h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.slider-text {
+  position: relative;
+  top: 93px;
+  left: -225px;
+  float: left;
+}
+.slider-text h5 {
+  font-size: 15px;
+  font-weight: 100;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.slider-text h4 {
+  font-size: 15px;
+  font-weight: 100;
+  float: left;
+  margin: 0 10px 0 0;
+  color: #999;
+  background: linear-gradient(to right, #fff 50%, #333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slider-text h6 {
+  font-size: 15px;
+  font-weight: 100;
+  float: left;
+  margin: 0 10px 0 0;
+  color: #999;
+  background: linear-gradient(to right, #fff 50%, #333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content1 {
+  padding-left: 30%;
+  padding-top: 60px;
+  height: 400px;
+}
+.content1 h6 {
+  margin: 0;
+  color: #ec2232;
+}
+.content1 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 0;
+}
+.content1-1 {
+  font-size: 10px;
+  text-align: justify;
+  display: block;
+  max-width: 100%;
+  padding-right: 30%;
+  padding-left: 50%;
+}
+
+.content1 ul {
+  list-style: none;
+  display: block;
+  max-width: 100%;
+  margin-top: 50px;
+}
+.content1 ul li {
+  float: left;
+  width: 170px;
+  border-right: 1px solid #000;
+  text-align: center;
+  padding: 0px 20px 0 20px;
+  font-family: Arial;
+}
+.content1 ul li:last-child {
+  border-right: 0px;
+}
+.content1 ul li h1 {
+  float: left;
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.content1 ul li span {
+  float: left;
+  font-size: 70px;
+  font-weight: bold;
+  color: red;
+  position: relative;
+  top: -14px;
+}
+.content1 ul li h4 {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 100;
+}
+.content1 ul li div {
+  display: block;
+  max-width: 100%;
+  height: 81px;
+}
+
+.content2 {
+  background-image: url("images/content2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 350px;
+  padding-left: 30%;
+  max-width: 100%;
+  padding-top: 60px;
+}
+.content2 h6 {
+  color: red;
+  margin: 0;
+}
+.content2 h1 {
+  margin-top: 5px;
+  font-size: 38px;
+}
+.content2 ul {
+  list-style: none;
+  display: block;
+  max-width: 100%;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: white;
+  text-align: right;
+  height: 450px;
+}
+.content2 ul li {
+  float: left;
+  width: 250px;
+  text-align: justify;
+  padding: 300px 20px 0 20px;
+  font-family: Arial;
+  margin: 20px 36px 20px 0;
+}
+.content2 ul li:last-child {
+  margin-right: 0px;
+}
+.content2 ul li h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.content2 ul li p {
+  font-size: 10px;
+  padding-right: 30px;
+}
+.content2 ul li hr {
+  color: red;
+  height: 2px;
+  margin: 0;
+  background-color: red;
+  border: 0px;
+}
+#cement {
+  background-image: url("images/cement.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+#mining {
+  background-image: url("images/mining.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+#rubber {
+  background-image: url("images/rubber.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.content3 {
+  background-image: url("images/content3.jfif");
+  background-repeat: no-repeat;
+  background-size: 1600px 964px;
+  background-position: right;
+  height: 600px;
+  margin-top: 280px;
+  color: white;
+  padding-left: 30%;
+  padding-top: 100px;
+}
+.content3 h2 {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 200;
+}
+.content3 p {
+  font-size: 10px;
+  text-align: justify;
+}
+.content3 ul {
+  list-style: none;
+  display: block;
+  max-width: 100%;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: white;
+}
+.content3 ul li {
+  float: left;
+  width: 170px;
+  text-align: left;
+  padding-right: 30px;
+}
+.content3 ul li img {
+  width: 60px;
+  height: 60px;
+}
+.content3 ul li h5 {
+  font-size: 25px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+}
+.content3 sup {
+  font-size: 15px;
+}
+.content3 ul li h3 {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  background-image: url("images/getintouch.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  padding-left: 100px;
+  display: block;
+}
+.contact1 {
+  width: 300px;
+  height: 270px;
+  float: left;
+  padding-left: 208px;
+}
+
+.contact1 iframe {
+  background: #ffffff;
+  box-shadow: 0px -2px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.contact1 h2 {
+  margin-top: 80px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 300px;
+  float: left;
+  padding: 40px;
+  background-color: #fff;
+  height: 320px;
+  margin-top: 80px;
+  margin-left: 50px;
+  border-radius: 4%;
+  box-shadow: 0px -2px 50px rgba(0, 0, 0, 0.1);
+}
+.form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.form ul li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  vertical-align: baseline;
+}
+.form input {
+  border: 0;
+  font-size: 12px;
+}
+.form textarea {
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.form a {
+  background-color: #ec2232;
+  width: 80px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 12px;
+  float: left;
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+  display: block;
+  max-width: 100%;
+  height: 300px;
+  padding: 20px;
+}
+.footer1 {
+  padding: 50px;
+  width: 25%;
+  float: left;
+  border-right: 1px solid #999;
+}
+.footer1:last-child {
+  border-right: 0;
+}
+.footer1 h4 {
+  font-size: 25px;
+  margin: 10px 0 20px 10px;
+  font-weight: 100;
+}
+.footer1 ul {
+  float: left;
+  display: block;
+  max-width: 50%;
+  color: white;
+  margin: 0 10px 0 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.footer1 li {
+  margin-bottom: 10px;
+}
+.footer1 h5 {
+  font-weight: 100;
+}
+.footer1 img {
+  margin-top: 20px;
+  padding-right: 20px;
+}
+.footer h3 {
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 100;
+  margin: 0;
+}
+
+@media (max-width: 360px) {
+  .nav2 {
+    width: 50%;
+  }
+  .nav2 h4 {
+    font-size: 21.75px;
+  }
+  .nav3 {
+    width: 23%;
+  }
+  .nav3 a {
+    font-size: 12px;
+  }
+  .nav3 img {
+    width: 10px;
+  }
+  .slider {
+    margin: 0;
+    line-height: 38px;
+    height: 370px;
+  }
+  .slider h1 {
+    font-size: 32px;
+  }
+  .slider-text {
+    top: -61px;
+    left: -18px;
+  }
+  .slider-text h4 {
+    font-size: 12;
+  }
+  .slider-text h5 {
+    font-size: 12;
+  }
+  .slider-text h6 {
+    font-size: 12;
+  }
+  .content1 {
+    padding-left: 20px;
+    height: 310px;
+  }
+  .content1 h1 {
+    line-height: 35px;
+    font-size: 30px;
+  }
+  .content1-1 {
+    padding-left: 110px;
+    padding-right: 20px;
+  }
+  .content1 ul li {
+    width: 99px;
+    padding: 0px 2px 0 16px;
+    width: 80px;
+  }
+  .content1 ul li div {
+    height: 48px;
+  }
+  .content1 ul li h1 {
+    font-size: 30px;
+  }
+  .content1 ul li span {
+    font-size: 41px;
+    top: -4px;
+  }
+  .content1 ul li h4 {
+    font-size: 10px;
+  }
+  .content2 {
+    padding-left: 20px;
+    height: 1133px;
+  }
+  .content2 h1 {
+    font-size: 25px;
+  }
+  .content3 {
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 360px;
+  }
+  .content3 h2 {
+    font-size: 28px;
+  }
+  .content3 ul li {
+    width: 75px;
+    padding-right: 10px;
+  }
+  .content3 ul li img {
+    width: 37px;
+    height: 37px;
+  }
+  .content3 ul li h5 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+  .content3 sup {
+    font-size: 9px;
+  }
+  .content3 ul li h3 {
+    font-size: 8px;
+  }
+  .content3 ul li svg {
+    height: 37px;
+    width: 37px;
+  }
+  .contact {
+    padding-left: 20px;
+    height: 920px;
+  }
+  .contact1 h2 {
+    margin-top: 35px;
+    font-size: 38px;
+    margin-bottom: 13px;
+  }
+  .contact1 {
+    padding-left: 0;
+    height: 500px;
+  }
+  .form {
+    margin-left: 0;
+    padding: 30px;
+    width: 260px;
+    margin-top: 0;
+  }
+  .form textarea {
+    font-size: 11px;
+  }
+  .form input {
+    font-size: 11px;
+  }
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .footer h3 {
+    font-size: 15px;
+    line-height: 29px;
+  }
+  .footer1 {
+    padding: 8px;
+    margin-top: 20px;
+    width: 28%;
+  }
+  .footer1 h4 {
+    font-size: 15px;
+    margin: 7px 0 20px 10px;
+  }
+  .footer1 ul {
+    margin: 0px 0px 0 7px;
+    padding-left: 15px;
+    font-size: 10px;
+  }
+  .footer1 img {
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+  .footer1 h5 {
+    font-weight: 100;
+    font-size: 7px;
+  }
+}
